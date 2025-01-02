@@ -11,12 +11,12 @@ func Burks() string {
 }
 
 func BigBark() string {
-	return dog.WhenGrowUp(BigBark())
+	return dog.WhenGrowUp(Burk())
 
 }
 
 func BigBarks() string {
-	return dog.WhenGrowUp(BigBarks())
+	return dog.WhenGrowUp(Burks())
 }
 
 // Big burks
