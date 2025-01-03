@@ -39,3 +39,5 @@ func From13() {
 func GoodDog(s string) string {
 	return dog.GoodBoy(s)
 }
+
+// Tags
