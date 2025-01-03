@@ -5,6 +5,8 @@ import (
 	"github.com/Nevojt/dog"
 )
 
+//const name = "Bosk"
+
 func Burk() string {
 	return "Woof!"
 }
@@ -34,4 +36,6 @@ func From13() {
 	fmt.Println("I'm version 1.3.0")
 }
 
-// tags
+func GoodDog(s string) string {
+	return dog.GoodBoy(s)
+}
